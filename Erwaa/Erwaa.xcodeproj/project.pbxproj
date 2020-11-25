@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECE8A42256E78D700A35CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A41256E78D700A35CAB /* AppDelegate.swift */; };
+		CECE8A44256E78D700A35CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A43256E78D700A35CAB /* SceneDelegate.swift */; };
+		CECE8A46256E78D700A35CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A45256E78D700A35CAB /* ViewController.swift */; };
+		CECE8A49256E78D700A35CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE8A47256E78D700A35CAB /* Main.storyboard */; };
+		CECE8A4B256E78D700A35CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE8A4A256E78D700A35CAB /* Assets.xcassets */; };
+		CECE8A4E256E78D700A35CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE8A4C256E78D700A35CAB /* LaunchScreen.storyboard */; };
+		CECE8A59256E78D800A35CAB /* ErwaaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A58256E78D800A35CAB /* ErwaaTests.swift */; };
+		CECE8A64256E78D800A35CAB /* ErwaaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A63256E78D800A35CAB /* ErwaaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECE8A55256E78D800A35CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECE8A36256E78D700A35CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECE8A3D256E78D700A35CAB;
+			remoteInfo = Erwaa;
+		};
+		CECE8A60256E78D800A35CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECE8A36256E78D700A35CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECE8A3D256E78D700A35CAB;
+			remoteInfo = Erwaa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECE8A3E256E78D700A35CAB /* Erwaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erwaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE8A41256E78D700A35CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECE8A43256E78D700A35CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CECE8A45256E78D700A35CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECE8A48256E78D700A35CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECE8A4A256E78D700A35CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECE8A4D256E78D700A35CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECE8A4F256E78D700A35CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE8A54256E78D800A35CAB /* ErwaaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErwaaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE8A58256E78D800A35CAB /* ErwaaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErwaaTests.swift; sourceTree = "<group>"; };
+		CECE8A5A256E78D800A35CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE8A5F256E78D800A35CAB /* ErwaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErwaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE8A63256E78D800A35CAB /* ErwaaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErwaaUITests.swift; sourceTree = "<group>"; };
+		CECE8A65256E78D800A35CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECE8A3B256E78D700A35CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A51256E78D800A35CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A5C256E78D800A35CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECE8A35256E78D700A35CAB = {
+			isa = PBXGroup;
+			children = (
+				CECE8A40256E78D700A35CAB /* Erwaa */,
+				CECE8A57256E78D800A35CAB /* ErwaaTests */,
+				CECE8A62256E78D800A35CAB /* ErwaaUITests */,
+				CECE8A3F256E78D700A35CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECE8A3F256E78D700A35CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECE8A3E256E78D700A35CAB /* Erwaa.app */,
+				CECE8A54256E78D800A35CAB /* ErwaaTests.xctest */,
+				CECE8A5F256E78D800A35CAB /* ErwaaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECE8A40256E78D700A35CAB /* Erwaa */ = {
+			isa = PBXGroup;
+			children = (
+				CECE8A41256E78D700A35CAB /* AppDelegate.swift */,
+				CECE8A43256E78D700A35CAB /* SceneDelegate.swift */,
+				CECE8A45256E78D700A35CAB /* ViewController.swift */,
+				CECE8A47256E78D700A35CAB /* Main.storyboard */,
+				CECE8A4A256E78D700A35CAB /* Assets.xcassets */,
+				CECE8A4C256E78D700A35CAB /* LaunchScreen.storyboard */,
+				CECE8A4F256E78D700A35CAB /* Info.plist */,
+			);
+			path = Erwaa;
+			sourceTree = "<group>";
+		};
+		CECE8A57256E78D800A35CAB /* ErwaaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECE8A58256E78D800A35CAB /* ErwaaTests.swift */,
+				CECE8A5A256E78D800A35CAB /* Info.plist */,
+			);
+			path = ErwaaTests;
+			sourceTree = "<group>";
+		};
+		CECE8A62256E78D800A35CAB /* ErwaaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECE8A63256E78D800A35CAB /* ErwaaUITests.swift */,
+				CECE8A65256E78D800A35CAB /* Info.plist */,
+			);
+			path = ErwaaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECE8A3D256E78D700A35CAB /* Erwaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE8A68256E78D800A35CAB /* Build configuration list for PBXNativeTarget "Erwaa" */;
+			buildPhases = (
+				CECE8A3A256E78D700A35CAB /* Sources */,
+				CECE8A3B256E78D700A35CAB /* Frameworks */,
+				CECE8A3C256E78D700A35CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erwaa;
+			productName = Erwaa;
+			productReference = CECE8A3E256E78D700A35CAB /* Erwaa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECE8A53256E78D800A35CAB /* ErwaaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE8A6B256E78D800A35CAB /* Build configuration list for PBXNativeTarget "ErwaaTests" */;
+			buildPhases = (
+				CECE8A50256E78D800A35CAB /* Sources */,
+				CECE8A51256E78D800A35CAB /* Frameworks */,
+				CECE8A52256E78D800A35CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECE8A56256E78D800A35CAB /* PBXTargetDependency */,
+			);
+			name = ErwaaTests;
+			productName = ErwaaTests;
+			productReference = CECE8A54256E78D800A35CAB /* ErwaaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECE8A5E256E78D800A35CAB /* ErwaaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE8A6E256E78D800A35CAB /* Build configuration list for PBXNativeTarget "ErwaaUITests" */;
+			buildPhases = (
+				CECE8A5B256E78D800A35CAB /* Sources */,
+				CECE8A5C256E78D800A35CAB /* Frameworks */,
+				CECE8A5D256E78D800A35CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECE8A61256E78D800A35CAB /* PBXTargetDependency */,
+			);
+			name = ErwaaUITests;
+			productName = ErwaaUITests;
+			productReference = CECE8A5F256E78D800A35CAB /* ErwaaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECE8A36256E78D700A35CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CECE8A3D256E78D700A35CAB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CECE8A53256E78D800A35CAB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CECE8A3D256E78D700A35CAB;
+					};
+					CECE8A5E256E78D800A35CAB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CECE8A3D256E78D700A35CAB;
+					};
+				};
+			};
+			buildConfigurationList = CECE8A39256E78D700A35CAB /* Build configuration list for PBXProject "Erwaa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECE8A35256E78D700A35CAB;
+			productRefGroup = CECE8A3F256E78D700A35CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECE8A3D256E78D700A35CAB /* Erwaa */,
+				CECE8A53256E78D800A35CAB /* ErwaaTests */,
+				CECE8A5E256E78D800A35CAB /* ErwaaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECE8A3C256E78D700A35CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE8A4E256E78D700A35CAB /* LaunchScreen.storyboard in Resources */,
+				CECE8A4B256E78D700A35CAB /* Assets.xcassets in Resources */,
+				CECE8A49256E78D700A35CAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A52256E78D800A35CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A5D256E78D800A35CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECE8A3A256E78D700A35CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE8A46256E78D700A35CAB /* ViewController.swift in Sources */,
+				CECE8A42256E78D700A35CAB /* AppDelegate.swift in Sources */,
+				CECE8A44256E78D700A35CAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A50256E78D800A35CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE8A59256E78D800A35CAB /* ErwaaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE8A5B256E78D800A35CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE8A64256E78D800A35CAB /* ErwaaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECE8A56256E78D800A35CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECE8A3D256E78D700A35CAB /* Erwaa */;
+			targetProxy = CECE8A55256E78D800A35CAB /* PBXContainerItemProxy */;
+		};
+		CECE8A61256E78D800A35CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECE8A3D256E78D700A35CAB /* Erwaa */;
+			targetProxy = CECE8A60256E78D800A35CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECE8A47256E78D700A35CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECE8A48256E78D700A35CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECE8A4C256E78D700A35CAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECE8A4D256E78D700A35CAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECE8A66256E78D800A35CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECE8A67256E78D800A35CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECE8A69256E78D800A35CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Erwaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.Erwaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECE8A6A256E78D800A35CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Erwaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.Erwaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECE8A6C256E78D800A35CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ErwaaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.ErwaaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erwaa.app/Erwaa";
+			};
+			name = Debug;
+		};
+		CECE8A6D256E78D800A35CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ErwaaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.ErwaaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erwaa.app/Erwaa";
+			};
+			name = Release;
+		};
+		CECE8A6F256E78D800A35CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ErwaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.ErwaaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erwaa;
+			};
+			name = Debug;
+		};
+		CECE8A70256E78D800A35CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ErwaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abrar.ErwaaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erwaa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECE8A39256E78D700A35CAB /* Build configuration list for PBXProject "Erwaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE8A66256E78D800A35CAB /* Debug */,
+				CECE8A67256E78D800A35CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE8A68256E78D800A35CAB /* Build configuration list for PBXNativeTarget "Erwaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE8A69256E78D800A35CAB /* Debug */,
+				CECE8A6A256E78D800A35CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE8A6B256E78D800A35CAB /* Build configuration list for PBXNativeTarget "ErwaaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE8A6C256E78D800A35CAB /* Debug */,
+				CECE8A6D256E78D800A35CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE8A6E256E78D800A35CAB /* Build configuration list for PBXNativeTarget "ErwaaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE8A6F256E78D800A35CAB /* Debug */,
+				CECE8A70256E78D800A35CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECE8A36256E78D700A35CAB /* Project object */;
+}
