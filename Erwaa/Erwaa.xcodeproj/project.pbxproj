@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904F8E1D256EBADA0076E3D9 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904F8E1C256EBADA0076E3D9 /* Map.storyboard */; };
 		CECE8A42256E78D700A35CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A41256E78D700A35CAB /* AppDelegate.swift */; };
 		CECE8A44256E78D700A35CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A43256E78D700A35CAB /* SceneDelegate.swift */; };
 		CECE8A46256E78D700A35CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8A45256E78D700A35CAB /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		904F8E1C256EBADA0076E3D9 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		CECE8A3E256E78D700A35CAB /* Erwaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erwaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECE8A41256E78D700A35CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECE8A43256E78D700A35CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				CECE8A43256E78D700A35CAB /* SceneDelegate.swift */,
 				CECE8A45256E78D700A35CAB /* ViewController.swift */,
 				CECE8A47256E78D700A35CAB /* Main.storyboard */,
+				904F8E1C256EBADA0076E3D9 /* Map.storyboard */,
 				CECE8A4A256E78D700A35CAB /* Assets.xcassets */,
 				CECE8A4C256E78D700A35CAB /* LaunchScreen.storyboard */,
 				CECE8A4F256E78D700A35CAB /* Info.plist */,
@@ -234,6 +237,7 @@
 				CECE8A4E256E78D700A35CAB /* LaunchScreen.storyboard in Resources */,
 				CECE8A4B256E78D700A35CAB /* Assets.xcassets in Resources */,
 				CECE8A49256E78D700A35CAB /* Main.storyboard in Resources */,
+				904F8E1D256EBADA0076E3D9 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26N8WMT96H;
 				INFOPLIST_FILE = Erwaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +461,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26N8WMT96H;
 				INFOPLIST_FILE = Erwaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
